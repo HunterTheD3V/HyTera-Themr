@@ -5,6 +5,10 @@
   "short_name":"SuperBlack",
   "version": "v2.0.2",
   "manifest_version": 3,
+  "icons": {
+    "48": "HytescordIcon_48b.png",
+    "128": "HytescordIcon_128b.png"
+  }
 
   "permissions": ["storage", "activeTab", "scripting"],
   "offline_enabled": true,
