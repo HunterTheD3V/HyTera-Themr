@@ -1,20 +1,24 @@
 {
+	"name": "HytesCord SuperBlack",
+	"description": "This browser extension enables the Discord mobile AMOLED Super Black theme in your discord browser, made by HyTera Development",
+	
+	"short_name": "SuperBlack",
+	"version": "2.2",
 
-  "name": "HytesCord SuperBlack", 
-  "description": "This browser extension enables the Discord mobile AMOLED Super Black theme in your discord browser, made by HyTera Development",
+	"manifest_version": 3,
+	"icons": {
+		"48": "superblack_assets/images/HytescordIcon_48b.png",
+		"128": "superblack_assets/images/HytescordIcon_128b.png"
+	  },
+	"permissions": [
+		"storage",
+		"activeTab",
+		"scripting"
+	],
+	"offline_enabled": true,
+	"action": {
+		"default_popup": "popup.html"
+	},
 
-  "short_name":"SuperBlack",
-  "version": "v2.0.2",
-  "manifest_version": 3,
-  "icons": {
-    "48": "HytescordIcon_48b.png",
-    "128": "HytescordIcon_128b.png"
-  },
-
-  "permissions": ["storage", "activeTab", "scripting"],
-  "offline_enabled": true,
-  "action": {
-    "default_popup": "popup.html"
-  },
-    "author": "HyTera Development"
+	"author": "HyTera Development"
 }
