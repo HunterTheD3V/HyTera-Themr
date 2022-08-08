@@ -5,6 +5,7 @@
 	"short_name": "SuperBlack",
 	"version": "2.2",
 
+
 	"manifest_version": 3,
 	"icons": {
 		"48": "superblack_assets/images/HytescordIcon_48b.png",
