@@ -1,4 +1,4 @@
-#button-discord {
+#button-enable {
 	margin-top: 20px;
 	background-color: #606bea;
 	border: none;
@@ -7,4 +7,18 @@
 	color: white;
 	font-size: 20px;
 	border-radius: 5px;
+}
+#button-disable {
+	margin-top: 20px;
+	background-color: #606bea;
+	border: none;
+	width: 200px;
+	height: 70px;
+	color: gray;
+	font-size: 20px;
+	border-radius: 5px;
+}
+.buttons {
+    display: flex;
+    flex-direction: column;
 }

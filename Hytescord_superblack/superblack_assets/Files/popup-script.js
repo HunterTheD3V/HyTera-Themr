@@ -1,6 +1,8 @@
-let button = document.querySelector("#button-discord")
+let buttonEnable = document.querySelector("#button-enable")
+let buttonDisable = document.querySelector("#button-disable")
+var data = {}
 
-button.addEventListener("click", async () => {
+buttonEnable.addEventListener("click", async () => {
 
   let [tab] = await chrome.tabs.query({ active: true, currentWindow: true })
 
@@ -12,9 +14,9 @@ button.addEventListener("click", async () => {
 
 function executionCode() {
 
-  let head = document.querySelector("head")
+  let head = document.querySelector("head");
 
-  let style = document.createElement('style')
+  let style = document.createElement('style');
 
   style.innerHTML = `
   .chatContent-3KubbW, .container-2o3qEW, .members-3WRCEx, .membersWrap-3NUR2t, .wrapper-3HVHpV, .wrapper-15CKyy, .contentRegionScroller-2_GT_N, .item-2idW98, .tabBody-2dgbAs, .scroller-hE2gWq, .emptyCard-KDifrB, .container-1Lk8p7, .container-x8Y1ix, .header-1zd7se, .footer-3ie9JP, .footer-31IekZ, .scroller-3j5xK2, .scroller-RfJjkV, .scroller-29cQFV, .scroller-oTbAWP, .submitContainer-1DHMA0 {
@@ -49,8 +51,23 @@ function executionCode() {
 
   .title-1_TkpU, .colorStandard-21JIj7, .footerTitle-3Bslxi, .title-2Giw-4M, .contents-3ca1mk, .title-OdeD-o, .title-2Giw-4, .inputDefault-3FGxgL {
     color: white;
-  }
+  } 
   `
-
-  head.appendChild(style)
+  
+  head.appendChild(style);
+  data.style = style ;
 }
+buttonDisable.addEventListener("click", async () => {  let [tab] = await chrome.tabs.query({ active: true, currentWindow: true })
+
+chrome.scripting.executeScript({
+  target: { tabId: tab.id },
+  function: executionCode,
+});
+function executionCode() {
+  if (data.style == undefined) return;
+  data.style.remove()
+  
+}
+}); 
+
+

@@ -3,8 +3,11 @@
 	"description": "This browser extension enables the Discord mobile AMOLED Super Black theme in your discord browser, made by HyTera Development",
 	
 	"short_name": "SuperBlack",
-	"version": "2.2",
+	"version": "3.0",
 
+	"storage": {
+		"managed_schema": "superblack_assets/Files/storageFiles/schema.json"
+	  },
 
 	"manifest_version": 3,
 	"icons": {
@@ -18,7 +21,7 @@
 	],
 	"offline_enabled": true,
 	"action": {
-		"default_popup": "popup.html"
+		"default_popup": "superblack_assets/Files/popup.html"
 	},
 
 	"author": "HyTera Development"

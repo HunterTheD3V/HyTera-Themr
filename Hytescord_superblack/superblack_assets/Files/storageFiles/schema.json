@@ -1,13 +1,12 @@
 {
-    "type": "object",
+  "type": "object",
 
-    "properties": {
-  
+  "properties": {
 
-      "AutoSave": {
-        "title": "Automatically save changes and storage inside the local database",
-        "description": "When set to true then changes will be automatically saved.",
-        "type": "boolean"
-      }
+    "actualTheme": {
+      "title": "The actual theme being ran.",
+      "description": "The value represents the current theme in a string, for example, superblack means the AMOLED theme is being ran.",
+      "type": "string"
     }
+  }
 }
