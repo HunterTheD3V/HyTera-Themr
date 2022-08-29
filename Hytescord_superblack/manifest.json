@@ -11,8 +11,8 @@
 
 	"manifest_version": 3,
 	"icons": {
-		"48": "superblack_assets/images/HytescordIcon_48b.png",
-		"128": "superblack_assets/images/HytescordIcon_128b.png"
+		"48": "superblack_assets/images/Themr-icon-48p.png",
+		"128": "superblack_assets/images/Themr-icon-128p.png"
 	  },
 	"permissions": [
 		"storage",

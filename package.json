@@ -1,0 +1,25 @@
+{
+  "name": "hytescord-themr",
+  "version": "3.0.0",
+  "description": "HytesCord THEMR, a project made by HyTera Development, made to allow the customization of your web client!",
+  "main": "manifest.json",
+  "scripts": {
+    "test": "echo: never gonna give you up, never gonna let you down"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/HunterD3V/superblack-ext.git"
+  },
+  "keywords": [
+    "tm"
+  ],
+  "author": "HyTera Development",
+  "license": "SEE LICENSE IN LICENSE.md",
+  "bugs": {
+    "url": "https://github.com/HunterD3V/superblack-ext/issues"
+  },
+  "homepage": "https://github.com/HunterD3V/superblack-ext#readme",
+  "dependencies": {
+    "jsdelivr": "^0.1.2"
+  }
+}
