@@ -82,6 +82,6 @@ Languagese used on themr:
 - [Github](https://github.com/NickHunterD3V/HytesCord-Themr)
 - [Discord Server](https://discord.gg/GZQrhyjfXe)
 
-##### Made by HyTera Development ©
+###### Made by HyTera Development ©
 
 
