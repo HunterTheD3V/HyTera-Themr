@@ -1,12 +1,87 @@
-# README
-## Hytescord Superblack Extension (v2.2)
-## Your eyes may need some rest, either because your discord theme is a little bit light or with a high contrast. Anyways. This extension was made to give your eyes some rest with a low contrast theme with 12 different shades of black. 
+<p align="center">
+    <img width="628" src="Hytescord_superblack/superblack_assets/images/hytescord_themr.png">
+  </a>
+</p>
 
-### Instalation Guide:
-## DISCLAIMER: while the superblack project isn't illegal, it have been prohibited by Discord TOS and Developer TOS. so yeah, this may get your account terminated/banned but we're not responsible for that, because we're only responsible for the project maintenance and development, and you must know that everything you do is of your own free will at your own risk
-### 1: download the main folder named "Hytescord_superblack"
-### 2: Unzip it with a file compression tool (like Winrar, 7zip and etc...)
-### 3: Now that you unziped the file, go in your Web Browser, in your Extensions tab, click "load unpacked" and select the Superblack Version you want to load
-### 4: Done! now enjoy your discord with a different theme. remember that you can always turn off the theme clicking on the button in the popup, by clicking on the extension icon
+<h1 align="center">HyTesCord THEMR</h1>
 
-#### Copyright © | HyTera Development 2021 - 2022 © | This repository is free to use. however, you must know that some conditions apply. please check the LICENSE file for more info
+<div align="center">
+
+**The best chrome extension made to allow the power of customization in your own hands!**
+
+The replacement of HyTesCord SUPERBLACK
+
+[![HyTera Development Server][hytera-development-server]][hytera-development-server-url]
+[![THEMR website][themr-website]][themr-website-url]
+
+[hytera-development-server]: https://img.shields.io/discord/773352845738115102?color=5865F2&logo=discord&logoColor=white
+[hytera-development-server-url]: https://discord.gg/GZQrhyjfXe
+[themr-website]: https://img.shields.io/badge/THEMR-website-green
+[themr-website-url]: https://themr.hdevelopment.tk/
+    
+</div>
+
+# Table of Contents
+1. - **[Features](#features)**
+2. - **[Installation](#installation)**
+3. - **[Setup](#setup)**
+4. - **[Links](#links)**
+
+## Features <a name = "features">
+
+  - Enables customization in a bunch of sites 
+  - Community can make themes and publish them 
+  - Customizable themes, where you can make your own themes 
+  - Easy to use, simple controls 
+
+## Installation <a name = "installation">
+
+In order to install THEMR in your browser, you'll need to follow this guide: 
+
+
+Step 1 : Download the repository as ZIP 
+
+Step 2 : Once downloaded, unzip it
+
+Step 3 : On your browser, go to extensions and enable Developer mode. then, click "Load unpacked"
+
+Step 4 : Load THEMR files you downloaded, under the "Hytescord_superblack" folder        
+
+## Setup <a name = "setup">
+
+### First steps
+
+first, download all required [Dependencies](#dependencies)
+
+then, clone the repository using
+```bash
+gh repo clone NickHunterD3V/HytesCord-Themr
+```
+in your console/terminal
+
+### Dependencies <a name = "dependencies">
+  
+Themr uses: 
+ - Node.JS v18.x
+ - NPM v7.20.x
+ - JsDelivr CDN
+
+NPM packages used by themr:
+ - express.js
+ - socket.io
+
+Languagese used on themr:
+ - JavaScript
+ - HTML5 
+ - CSS 
+ - TypeScript
+ - PHP
+    
+## Links <a name = "links">
+- [Website](https://themr.hdevelopment.tk/index.html)
+- [Github](https://github.com/NickHunterD3V/HytesCord-Themr)
+- [Discord Server](https://discord.gg/GZQrhyjfXe)
+
+##### Made by HyTera Development ©
+
+
