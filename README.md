@@ -26,6 +26,7 @@ The replacement of the old HyTesCord SUPERBLACK project.
 2. - **[Installation](#installation)**
 3. - **[Setup](#setup)**
 4. - **[Links](#links)**
+5. - **[Contributtions](#collab)**
 
 ## Features <a name = "features">
 
@@ -76,11 +77,20 @@ Languagese used on themr:
  - CSS 
  - TypeScript
  - PHP
+ - PYTHON
     
 ## Links <a name = "links">
 - [Website](https://themr.hdevelopment.tk/index.html)
 - [Github](https://github.com/NickHunterD3V/HytesCord-Themr)
 - [Discord Server](https://discord.gg/GZQrhyjfXe)
+
+## Contributtions <a name = "collab">
+
+the project is made by Hunter from HyTera Development
+
+contributtors:
+- Paebukoa
+- Select
 
 ###### Made by HyTera Development ©
 
