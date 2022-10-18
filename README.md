@@ -3,13 +3,13 @@
   </a>
 </p>
 
-<h1 align="center">HyTesCord THEMR</h1>
+<h1 align="center">HyTera THEMR</h1>
 
 <div align="center">
 
-**The best chrome extension made to allow the power of customization in your own hands!**
+**The best web browser extension made to allow the power of customization in your own hands!**
 
-The replacement of HyTesCord SUPERBLACK
+The replacement of the old HyTesCord SUPERBLACK project.
 
 [![HyTera Development Server][hytera-development-server]][hytera-development-server-url]
 [![THEMR website][themr-website]][themr-website-url]
