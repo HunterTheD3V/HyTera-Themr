@@ -71,7 +71,7 @@ NPM packages used by themr:
  - express.js
  - socket.io
 
-Languagese used on themr:
+Languages used on themr:
  - JavaScript
  - HTML5 
  - CSS 
