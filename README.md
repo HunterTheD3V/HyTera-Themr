@@ -86,11 +86,12 @@ Languages used on themr:
 
 ## Contributtions <a name = "collab">
 
-the project is made by Hunter from HyTera Development
+the project is made by [Hunter](https://github.com/NickHunterD3V/) from [HyTera Development](https://discord.gg/GZQrhyjfXe)
 
-contributtors:
-- Paebukoa
-- Select
+Contributtors:
+- [Hunter (as owner)](https://github.com/NickHunterD3V)
+- [Paebukoa](https://github.com/Paebukoa)
+- [Select](https://github.com/SelectDev)
 
 ###### Made by HyTera Development ©
 
